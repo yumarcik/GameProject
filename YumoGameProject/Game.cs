@@ -9,5 +9,7 @@ namespace YumoGameProject
         public int GameId { get; set; }
         public string GameName { get; set; }
         public decimal GamePrice { get; set; }
+
+        public List<Campaign> currentCampaigns = new List<Campaign>();
     }
 }
